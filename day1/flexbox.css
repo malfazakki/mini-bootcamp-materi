@@ -1,0 +1,30 @@
+body {
+	/* viewport height */
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wadah {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 50px;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	background-color: aquamarine;
+}
+
+.links {
+	display: flex;
+	flex-direction: column;
+	height: 120px;
+	background-color: beige;
+	justify-content: center;
+	align-items: center;
+}

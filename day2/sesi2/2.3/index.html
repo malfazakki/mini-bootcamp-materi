@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Expense Tracker - Fatih</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<div id="container">
+			<h1>Pengeluaran Saya 💵</h1>
+
+			<div id="input-box">
+				<input type="text" id="nama-pengeluaran" placeholder="masukkan nama pengeluaran..." />
+				<input type="number" id="nominal-pengeluaran" placeholder="jumlah (Rp)..." />
+				<button id="tombol-tambah">Tambah</button>
+			</div>
+
+			<div>
+				Total: <strong>Rp <span id="total-harga">0</span></strong>
+			</div>
+
+			<ul id="daftar-pengeluaran"></ul>
+		</div>
+		<script src="./script.js"></script>
+	</body>
+</html>

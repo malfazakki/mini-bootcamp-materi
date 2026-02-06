@@ -1,0 +1,35 @@
+h1 {
+	color: red;
+}
+
+h2 {
+	color: green;
+}
+
+.blue {
+	color: blue;
+}
+
+.bungkus-paragraf {
+	background-color: bisque;
+}
+
+.bungkus-dicta {
+	background-color: aqua;
+}
+
+.item-1 {
+	height: 100px;
+	width: 100px;
+	background-color: blueviolet;
+	padding: 10px;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+.item-2 {
+	margin-top: 15px;
+	height: 100px;
+	width: 100px;
+	background-color: orangered;
+}

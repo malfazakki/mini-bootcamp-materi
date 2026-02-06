@@ -1,0 +1,34 @@
+/* body {
+	background-color: antiquewhite;
+} */
+
+h1 {
+	font-size: 56px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	gap: 50px;
+	justify-content: center;
+}
+
+.item {
+	width: 100px;
+	height: 100px;
+	background-color: blueviolet;
+}
+
+@media (max-width: 600px) {
+	/* body {
+		background-color: aquamarine;
+	} */
+
+	h1 {
+		font-size: 36px;
+	}
+
+	.container {
+		flex-wrap: wrap;
+	}
+}
