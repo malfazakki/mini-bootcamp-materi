@@ -1,5 +1,5 @@
 // Konfigurasi URL Backend
-const API_URL = "http://localhost:3000/pengeluaran";
+const API_URL = "https://mini-bootcamp-materi-backend-deploy.vercel.app/pengeluaran";
 
 // Element DOM
 const tombolTambah = document.getElementById("tombol-tambah");
